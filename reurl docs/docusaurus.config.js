@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/reURL_logo.png',
   organizationName: 'reURL', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
@@ -46,7 +46,7 @@ const config = {
         title: 'reURL',
         logo: {
           alt: 'reURL',
-          src: 'img/logo.svg',
+          src: 'img/reURL_logo.png',
         },
         items: [
           {
@@ -55,7 +55,7 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://reurl.eu',
             label: 'reURL.eu',
