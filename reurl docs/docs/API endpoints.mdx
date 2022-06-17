@@ -6,20 +6,20 @@ These docs are early alpha.
 :::
 
 All new reURL.eu endpoints.
-Please note that our api has limit 25 requests per 15 minutes
+Please note that our api has limit 5 requests per 15 minutes
 
 ## Create URL
 ```jsx title="Create URL"
-https://reurl.eu/api/v2/create?url=https://yourawesomewebsite.com
+https://reurl.eu/api/v3/create?url=https://yourawesomewebsite.com
 ```
 
 ## Get URL clicks
 ```jsx title="Get url clicks"
-https://reurl.eu/api/v2/clicks?shortUrl=6MHADVSEx
+https://reurl.eu/api/v3/clicks?url=6MHADVSEx
 ```
 
 :::danger
 
-V1 api will stop working very soon, please upgrade
+V1 and V2 are deprecated and cannot be used, please use V3
 
 :::
